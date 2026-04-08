@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gaurav Sharma | Portfolio</title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"/>
+
+  <!-- AOS Animation -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css"/>
+</head>
+<body>
+
+  <!-- Background Glow -->
+  <div class="bg-circle bg1"></div>
+  <div class="bg-circle bg2"></div>
+
+  <!-- Header -->
+  <header class="header">
+    <div class="container nav">
+      <div class="logo">Gaurav<span>Sharma</span></div>
+
+      <nav>
+        <ul class="nav-links" id="nav-links">
+          <li><a href="#home" class="nav-link active">Home</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#skills" class="nav-link">Skills</a></li>
+          <li><a href="#projects" class="nav-link">Projects</a></li>
+          <li><a href="#education" class="nav-link">Education</a></li>
+          <li><a href="#certificates" class="nav-link">Certificates</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="menu-btn" id="menu-btn">
+        <i class="fa-solid fa-bars"></i>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero" id="home">
+    <div class="container hero-content">
+      <div class="hero-text" data-aos="fade-right">
+        <p class="intro">HELLO, I'M</p>
+        <h1>Gaurav Sharma</h1>
+        <h2><span id="typed-text"></span></h2>
+        <p class="hero-desc">
+          I am a passionate BCA student and aspiring web developer focused on building
+          modern, responsive, and user-friendly websites. I am currently learning
+          HTML, CSS, JavaScript, Python, and MySQL, and looking for internship opportunities
+          to grow as a future full stack developer.
+        </p>
+
+        <div class="hero-buttons">
+          <a href="#projects" class="btn primary-btn">View Projects</a>
+          <a href="gaurav_resume.pdf" class="btn secondary-btn" download>Download Resume</a>
+        </div>
+
+        <div class="social-icons">
+          <a href="https://www.linkedin.com/in/gaurav-sharma-475067359?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank" aria-label="LinkedIn">
+            <i class="fa-brands fa-linkedin-in"></i>
+          </a>
+          <a href="https://github.com/Gaurav0708Sharma" target="_blank" aria-label="GitHub">
+            <i class="fa-brands fa-github"></i>
+          </a>
+          <a href="mailto:up281004@gmail.com" aria-label="Email">
+            <i class="fa-solid fa-envelope"></i>
+          </a>
+          <a href="tel:+918630343158" aria-label="Phone">
+            <i class="fa-solid fa-phone"></i>
+          </a>
+        </div>
+      </div>
+
+      <div class="hero-image" data-aos="fade-left">
+        <div class="profile-card">
+          <div class="glow-ring"></div>
+          <div class="profile-inner">
+            <i class="fa-solid fa-code"></i>
+            <h3>Future Full Stack Developer</h3>
+            <p>Building my career with code, creativity, and consistency.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section class="section" id="about">
+    <div class="container">
+      <div class="section-title" data-aos="fade-up">
+        <p>ABOUT ME</p>
+        <h2>Who I Am</h2>
+      </div>
+
+      <div class="about-card glass" data-aos="zoom-in">
+        <p>
+          I am a dedicated <strong>BCA student</strong> with a strong interest in
+          <strong>web development</strong>. I enjoy creating modern and responsive
+          websites that provide a clean and user-friendly experience.
+        </p>
+        <p>
+          I am currently learning <strong>HTML, CSS, JavaScript, Python, and MySQL</strong>
+          to strengthen my technical skills and become a professional developer.
+          I am actively looking for <strong>internship opportunities</strong> where I can
+          apply my knowledge and gain real-world experience.
+        </p>
+        <p>
+          My goal is to build a successful career in the field of web development and
+          continuously improve my skills through practice, projects, and learning.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section class="section" id="skills">
+    <div class="container">
+      <div class="section-title" data-aos="fade-up">
+        <p>MY SKILLS</p>
+        <h2>Technologies I Work With</h2>
+      </div>
+
+      <div class="skills-grid">
+        <div class="skill-card glass" data-aos="flip-left">HTML</div>
+        <div class="skill-card glass" data-aos="flip-left" data-aos-delay="100">CSS</div>
+        <div class="skill-card glass" data-aos="flip-left" data-aos-delay="200">JavaScript</div>
+        <div class="skill-card glass" data-aos="flip-left" data-aos-delay="300">MySQL</div>
+        <div class="skill-card glass" data-aos="flip-left" data-aos-delay="400">Python</div>
+        <div class="skill-card glass" data-aos="flip-left" data-aos-delay="500">C Programming</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section class="section" id="projects">
+    <div class="container">
+      <div class="section-title" data-aos="fade-up">
+        <p>FEATURED PROJECTS</p>
+        <h2>Practice Projects</h2>
+      </div>
+
+      <div class="projects-grid">
+
+        <div class="project-card glass" data-aos="fade-up">
+          <div class="project-icon"><i class="fa-solid fa-user"></i></div>
+          <h3>Personal Portfolio Website</h3>
+          <p>
+            A premium responsive personal portfolio website to showcase profile,
+            skills, education, certificates, and contact details in a professional way.
+          </p>
+          <div class="project-tech">HTML • CSS • JavaScript</div>
+          <div class="project-buttons">
+            <a href="#" class="small-btn">Live Demo</a>
+            <a href="#" class="small-btn">GitHub</a>
+          </div>
+        </div>
+
+        <div class="project-card glass" data-aos="fade-up" data-aos-delay="150">
+          <div class="project-icon"><i class="fa-solid fa-laptop-code"></i></div>
+          <h3>Responsive Landing Page</h3>
+          <p>
+            A modern landing page with hero section, features, call-to-action buttons,
+            and responsive layout for product or service presentation.
+          </p>
+          <div class="project-tech">HTML • CSS • JavaScript</div>
+          <div class="project-buttons">
+            <a href="#" class="small-btn">Live Demo</a>
+            <a href="#" class="small-btn">GitHub</a>
+          </div>
+        </div>
+
+        <div class="project-card glass" data-aos="fade-up" data-aos-delay="300">
+          <div class="project-icon"><i class="fa-solid fa-address-card"></i></div>
+          <h3>Student Registration Form</h3>
+          <p>
+            A clean and responsive student registration form with modern UI,
+            input validation, and structured data collection layout.
+          </p>
+          <div class="project-tech">HTML • CSS • JavaScript</div>
+          <div class="project-buttons">
+            <a href="#" class="small-btn">Live Demo</a>
+            <a href="#" class="small-btn">GitHub</a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Education Section -->
+  <section class="section" id="education">
+    <div class="container">
+      <div class="section-title" data-aos="fade-up">
+        <p>EDUCATION</p>
+        <h2>Academic Journey</h2>
+      </div>
+
+      <div class="education-card glass" data-aos="zoom-in-up">
+        <h3>Bachelor of Computer Applications (BCA)</h3>
+        <p><strong>College:</strong> Rajiv Academy For Technology And Management, Mathura</p>
+        <p><strong>University:</strong> Dr. Bhim Rao Ambedkar University, Agra</p>
+        <p><strong>Current Semester:</strong> 2nd Year, 4th Semester</p>
+        <p><strong>Expected Graduation:</strong> 2027</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Certificates Section -->
+  <section class="section" id="certificates">
+    <div class="container">
+      <div class="section-title" data-aos="fade-up">
+        <p>CERTIFICATES</p>
+        <h2>Learning & Achievements</h2>
+      </div>
+
+      <div class="cert-grid">
+        <div class="cert-card glass" data-aos="zoom-in">
+          <i class="fa-solid fa-file-excel"></i>
+          <h3>MS Excel</h3>
+          <p>Certified in spreadsheet management, formulas, and data handling.</p>
+        </div>
+
+        <div class="cert-card glass" data-aos="zoom-in" data-aos-delay="150">
+          <i class="fa-solid fa-desktop"></i>
+          <h3>ADIT</h3>
+          <p>Completed technical and digital learning focused on computer skills.</p>
+        </div>
+
+        <div class="cert-card glass" data-aos="zoom-in" data-aos-delay="300">
+          <i class="fa-solid fa-certificate"></i>
+          <h3>CCC</h3>
+          <p>Course on Computer Concepts with strong foundation in computer basics.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Career Objective -->
+  <section class="section">
+    <div class="container">
+      <div class="career-card glass" data-aos="fade-up">
+        <p class="career-label">CAREER OBJECTIVE</p>
+        <h2>Ready to Learn, Build, and Grow</h2>
+        <p>
+          I am seeking internship and entry-level opportunities in web development where
+          I can apply my skills, work on practical projects, and continue improving as a
+          future full stack developer.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="section" id="contact">
+    <div class="container">
+      <div class="section-title" data-aos="fade-up">
+        <p>CONTACT ME</p>
+        <h2>Let's Work Together</h2>
+      </div>
+
+      <div class="contact-wrapper">
+        <div class="contact-info glass" data-aos="fade-right">
+          <h3>Get In Touch</h3>
+
+          <p>
+            <i class="fa-solid fa-envelope"></i>
+            <a href="mailto:up281004@gmail.com">up281004@gmail.com</a>
+          </p>
+
+          <p>
+            <i class="fa-solid fa-phone"></i>
+            <a href="tel:+918630343158">+91 8630343158</a>
+          </p>
+
+          <p>
+            <i class="fa-brands fa-linkedin"></i>
+            <a href="https://www.linkedin.com/in/gaurav-sharma-475067359?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank">
+              View LinkedIn Profile
+            </a>
+          </p>
+
+          <p>
+            <i class="fa-brands fa-github"></i>
+            <a href="https://github.com/Gaurav0708Sharma" target="_blank">
+              View GitHub Profile
+            </a>
+          </p>
+        </div>
+
+        <form class="contact-form glass" id="contact-form" data-aos="fade-left">
+          <input type="text" placeholder="Your Name" required />
+          <input type="email" placeholder="Your Email" required />
+          <input type="text" placeholder="Subject" required />
+          <textarea rows="5" placeholder="Your Message" required></textarea>
+          <button type="submit" class="btn primary-btn">Send Message</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-content">
+      <p>© 2026 Gaurav Sharma. Built with passion, consistency, and code.</p>
+      <a href="#home" class="top-btn" aria-label="Back to Top">
+        <i class="fa-solid fa-arrow-up"></i>
+      </a>
+    </div>
+  </footer>
+
+  <!-- AOS -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+  <!-- JS -->
+  <script src="script.js"></script>
+</body>
+</html>
